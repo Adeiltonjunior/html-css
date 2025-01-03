@@ -1,0 +1,72 @@
+HTML5 E CSS3, podem ser chamadas de linguagens, porém não são linguagens de programação
+
+REPOSITÓRIOS PÚBLICOS: github.com/gustavoguanabara; gustavoguanabara.github.io
+
+BIBLIOGRAFIA RECOMENDADA: Material de apoio do curso; REFERÊNCIAS ONLINE: Referência MDN; Referência W3C Standards; Referência WHATWG Living Standard; Referência W3Schools; LIVROS: O'Reilley - HTML5, CSS, FLEXBOX, GRID LAYOUT IN CSS; Alta books - HTML5 E CSS3; CRIE SEU PRÓPRIO SITE; GG e SENAC SP - Curso de design gráfico; a pisicologia das cores; pensar com tipos; FLEXBOX EXPLAINED, CSS GRID EXPLAINED
+
+CÓDIGO MULTIBYTE UTF-8?
+
+1024 bytes = 1 KB; 1024 KB = 1MB; 1024 MB = 1GB; 1024 GB = 1TB; 1024TB = 1PB; 1024 PB = 1EB; 1024EB = 1ZB; 1024ZB = 1YB
+
+MB (MEGABYTES) - ARMAZENAMENTO; Mb (MEGABITS) - TRANSMISSÃO
+
+MODEM = MODULAÇÃO/DEMODULAÇÃO
+
+DOMINIO - NOME QUE IDENTIFICA O SEU SITE - PAGO ANUALMENTE - VÁRIOS TLD'S; HOSPEDAGEM - LOCAL ONDE O SITE ESTARÁ ARMAZENADO - ESPAÇO PARA ARMAZENAR SEUS ARQUIVOS - PAGO MENSALMENTE - ESPAÇO, MEMÓRIA, RECURSOS
+
+URL/TLD/GTLD(GENÉRICO)/CCTLD/SUBDOMÍNIO/CAMINHO
+
+"EU DESENVOLVO EM HTML (HYPERTEXT MARKUP LANGUAGE) E CSS (CASCADING STYLE SHEETS)" - LINGUAGEM
+
+HTML É UMA LINGUAGEM FOCADA EM CONTEÚDO (TEXTOS, IMAGENS, VÍDEOS, TABELA, LISTAS...)
+
+CSS É FOCADO EM DESIGN (CORES, SOMBRAS, TAMANHOS, POSICIONAMENTO...)
+
+JAVASCRIPT - LINGUAGEM DE PROGRAMAÇÃO - É FOCADO EM INTERAÇÕES (MENUS INTERATIVOS, ANIMAÇÕES, POPUPS, VALIDAÇÕES...)
+
+CONTEÚDO EM HTML - TAGS (<>) - EXEMPLO DE TÍTULO <h1> (abertura de tag); </h1> (fechamento de tag) - EXEMPLO DE PARAGRAFO <p> (abertura de tag); </p> (fechamento de tag) - <img scr= (foto.png); alt= (exemplo de foto)
+
+ESTILO EM CSS - h1 { (seletor) }    (toda declaração em CSS deve ter ; no final)
+
+ESTRUTURA BÁSICA DE DOCUMENTO HTML - <!DOCTYPE html>
+                                     <html lang="pt-br">
+                                     .      <head>
+                                     .          <meta charset="UTF-8"
+                                     .          <meta name="viewport"
+                                     .          content="width=device-width
+                                     .          initial-scale=1.0"
+                                     .          <title>Document</title>
+                                     .      </head>
+                                     .      <body>
+                                     .         <h1>Olá, Mundo!</h1> 
+                                     .
+                                     .      </body>
+                                     .</html>
+
+FRONT-END; BACK-END; FULL STACK
+
+FRONT-END: TECNOLOGIAS QUE IRÃO RODAR PARA O CLIENTE; FOCADO NO USUÁRIO (CLIENT-SIDE)
+BACK-END: OUTRAS FERRAMENTAS QUE IRÃO RODAR PARA O SERVIDOR; FOCADO NOS CÓDIGOS QUE ESTARÃO DISPONÍVEIS PARA O SERVIDOR (SERVER-SIDE) - LINGUAGENS COMUNS (PHP; JAVASCRIPT; CSHARK; PYTHON; JAVA...)
+FULL STACK - DESENVOLVEDOR QUE TRABALHA COM BACK-END E FRONT-END
+
+IMAGENS - FERRAMENTAS DO GOOGLE; UNSPLASH; PEXELS
+
+FORMATO DE ARQUIVOS PARA IMAGENS NA WEB - JPG; PNG
+
+FORMATO PNG PERMITE A TRANSPARÊNCIA DE UMA PARTE DA IMAGEM
+
+JPG E PNG TRATAM-SE DE ARQUIVOS COMPACTADOS
+
+GIMP - LARGURA PADRÃO DE IMAGENS 1500; RESOLUÇÃO BOA 72.000; NÃO HÁ RESOLUÇÃO PADRÃO. O IDEAL É TENTAR E ALTERAR OS TAMANHOS CONFORME O PROJETO DO SITE
+
+FAVCOIN - ICONE QUE FICA NA ABA DO SITE. PARA INCLUIR, COLOCA A INFORMAÇÃO link.favcoin NA PARTE HEAD DO HTML
+
+lorem - PARAGRAFOS CRIADOS ALEATORIAMENTE PELO HTML
+
+a tag H1 vai até a H6. as tags H se referem a hierarquia das informações apresentadas na linguagem HTML
+
+HTML5 NÃO SE FOCA MAIS EM FORMA, O FOCO AGORA É NA SEMÂNTICA
+
+COMANDO DE ATALHO NO VISUAL CODE - CTRL + SHIFT + P
+
+LISTAS QUE PODEM SER CRIADAS EM HTML - LISTAS ORDENADAS; LISTAS NÃO ORDENADAS; LISTAS DE DEFINIÇÃO

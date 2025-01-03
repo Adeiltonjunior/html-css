@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AJR Advocacia - Excelência em Consultoria Jurídica">
+    <title>AJR Advocacia</title>
+    <!-- Favicon -->
+    <link rel="icon" href="/mnt/data/Perfil 01 - Adeilton Júnior (1).png" type="image/png">
+    <!-- Fonte Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #043742; /* Cor do fundo baseada na logo */
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #d4af37; /* Dourado */
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            background: #03606A; /* Tom complementar */
+            padding: 0.8rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            color: #d4af37; /* Dourado */
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?law,justice') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero a {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #d4af37; /* Dourado */
+            color: #043742; /* Verde escuro */
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .hero a:hover {
+            background: #f5d572; /* Tom mais claro de dourado */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            flex: 1 1 calc(33.333% - 2rem);
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 0.5rem;
+            color: #043742;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        footer {
+            background: #03606A;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        /* Botão Flutuante WhatsApp */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            z-index: 1000;
+        }
+
+        .whatsapp-button:hover {
+            transform: scale(1.1);
+        }
+
+        .whatsapp-button img {
+            width: 35px;
+            height: 35px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(100% - 2rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>AJR Advocacia</h1>
+        <p>Excelência em Consultoria Jurídica e Defesa de Direitos</p>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#artigos">Artigos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <h2>Soluções Jurídicas Personalizadas</h2>
+        <p>Defendendo seus direitos com ética e comprometimento.</p>
+        <a href="#contato">Entre em Contato</a>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>AJR Advocacia é um escritório dedicado à excelência na prestação de serviços jurídicos. Com uma equipe altamente qualificada, atuamos em diversas áreas do Direito, buscando sempre a melhor solução para nossos clientes.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <div class="content">
+                <div class="card">
+                    <h3>Direito Civil</h3>
+                    <p>Consultoria em contratos, processos judiciais e mediações.</p>
+                </div>
+                <div class="card">
+                    <h3>Direito Trabalhista</h3>
+                    <p>Assessoria jurídica para empresas e trabalhadores.</p>
+                </div>
+                <div class="card">
+                    <h3>Direito Penal</h3>
+                    <p>Defesa em processos criminais com ética e profissionalismo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="artigos">
+            <h2>Artigos e Vídeos</h2>
+            <div class="content">
+                <div class="card">
+                    <h3>Artigo 1</h3>
+                    <p>Como proteger seus direitos civis: dicas práticas.</p>
+                </div>
+                <div class="card">
+                    <h3>Artigo 2</h3>
+                    <p>O impacto da nova legislação trabalhista no Brasil.</p>
+                </div>
+                <div class="card">
+                    <h3>Vídeo</h3>
+                    <p>Veja nosso vídeo sobre direitos do consumidor.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 AJR Advocacia. Todos os direitos reservados.</p>
+        <p>Desenvolvido com dedicação.</p>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5587999700124" target="_blank" class="whatsapp

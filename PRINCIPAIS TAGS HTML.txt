@@ -1,0 +1,164 @@
+Aqui está uma lista com as **100 principais tags HTML** e seus significados, organizada de forma clara e prática. As tags estão divididas por categorias principais para facilitar o entendimento.
+
+---
+
+## **Estrutura do Documento**
+1. `<html>` - Define o documento como HTML.
+2. `<head>` - Contém metadados sobre o documento.
+3. `<body>` - Contém o conteúdo visível do site.
+4. `<title>` - Define o título da página (aparece na aba do navegador).
+5. `<meta>` - Define metadados, como codificação e descrição da página.
+6. `<link>` - Conecta recursos externos, como arquivos CSS.
+7. `<style>` - Adiciona estilos CSS diretamente no documento.
+8. `<script>` - Insere scripts JavaScript.
+9. `<!DOCTYPE>` - Declara o tipo de documento (HTML5).
+
+---
+
+## **Cabeçalhos e Estrutura de Texto**
+10. `<h1>` - Cabeçalho de nível 1 (mais importante).
+11. `<h2>` - Cabeçalho de nível 2.
+12. `<h3>` - Cabeçalho de nível 3.
+13. `<h4>` - Cabeçalho de nível 4.
+14. `<h5>` - Cabeçalho de nível 5.
+15. `<h6>` - Cabeçalho de nível 6 (menos importante).
+16. `<p>` - Define um parágrafo.
+17. `<br>` - Insere uma quebra de linha.
+18. `<hr>` - Insere uma linha horizontal (separador).
+19. `<blockquote>` - Cita um texto em bloco.
+20. `<pre>` - Exibe texto com formatação preservada.
+
+---
+
+## **Formatação de Texto**
+21. `<b>` - Deixa o texto em negrito (sem ênfase semântica).
+22. `<strong>` - Define um texto importante (semântica).
+23. `<i>` - Deixa o texto em itálico (sem ênfase semântica).
+24. `<em>` - Destaca o texto com ênfase.
+25. `<u>` - Sublinha o texto.
+26. `<mark>` - Realça texto com um fundo amarelo.
+27. `<small>` - Diminui o tamanho do texto.
+28. `<del>` - Mostra texto riscado (excluído).
+29. `<ins>` - Mostra texto sublinhado (inserido).
+30. `<sup>` - Texto em sobrescrito.
+31. `<sub>` - Texto em subscrito.
+
+---
+
+## **Listas**
+32. `<ul>` - Cria uma lista não ordenada (com marcadores).
+33. `<ol>` - Cria uma lista ordenada (com números).
+34. `<li>` - Define um item de lista.
+35. `<dl>` - Cria uma lista de descrição.
+36. `<dt>` - Define um termo em uma lista de descrição.
+37. `<dd>` - Define a descrição de um termo.
+
+---
+
+## **Links e Navegação**
+38. `<a>` - Cria um link.
+39. `<nav>` - Define uma seção de navegação.
+
+---
+
+## **Imagens e Multimídia**
+40. `<img>` - Insere uma imagem.
+41. `<picture>` - Insere uma imagem responsiva.
+42. `<source>` - Define a fonte de mídia (para `<picture>` ou `<video>`).
+43. `<figure>` - Define uma figura com legenda.
+44. `<figcaption>` - Adiciona uma legenda à figura.
+45. `<audio>` - Insere um áudio.
+46. `<video>` - Insere um vídeo.
+47. `<track>` - Adiciona legendas a vídeos.
+
+---
+
+## **Tabelas**
+48. `<table>` - Cria uma tabela.
+49. `<thead>` - Define o cabeçalho de uma tabela.
+50. `<tbody>` - Define o corpo de uma tabela.
+51. `<tfoot>` - Define o rodapé de uma tabela.
+52. `<tr>` - Define uma linha de tabela.
+53. `<th>` - Define uma célula de cabeçalho.
+54. `<td>` - Define uma célula de dados.
+
+---
+
+## **Formulários**
+55. `<form>` - Cria um formulário.
+56. `<input>` - Insere campos de entrada.
+57. `<textarea>` - Cria uma área de texto.
+58. `<button>` - Insere um botão.
+59. `<select>` - Cria uma lista suspensa.
+60. `<option>` - Define opções dentro de `<select>`.
+61. `<label>` - Associa um rótulo a um campo de formulário.
+62. `<fieldset>` - Agrupa elementos em um formulário.
+63. `<legend>` - Define uma legenda para `<fieldset>`.
+64. `<datalist>` - Define opções de entrada predefinidas.
+65. `<output>` - Exibe o resultado de cálculos.
+66. `<progress>` - Indica o progresso de uma tarefa.
+67. `<meter>` - Representa um valor em uma faixa definida.
+
+---
+
+## **Elementos Semânticos**
+68. `<header>` - Define o cabeçalho de uma página ou seção.
+69. `<footer>` - Define o rodapé de uma página ou seção.
+70. `<main>` - Define o conteúdo principal de uma página.
+71. `<section>` - Define uma seção de conteúdo.
+72. `<article>` - Define um conteúdo independente.
+73. `<aside>` - Define conteúdo complementar ou lateral.
+74. `<details>` - Cria um widget de conteúdo expansível.
+75. `<summary>` - Define um título para `<details>`.
+
+---
+
+## **Tags Genéricas e Organização**
+76. `<div>` - Define uma divisão ou contêiner genérico.
+77. `<span>` - Define um contêiner genérico para texto.
+
+---
+
+## **Tags de Mídia e Interatividade**
+78. `<canvas>` - Cria uma área para gráficos desenhados via JavaScript.
+79. `<svg>` - Cria gráficos vetoriais.
+80. `<embed>` - Insere conteúdo externo, como PDFs.
+81. `<iframe>` - Insere uma página HTML dentro de outra.
+82. `<object>` - Insere recursos externos como vídeos ou plugins.
+
+---
+
+## **Tags de Script e Dados**
+83. `<noscript>` - Define conteúdo alternativo se scripts não forem suportados.
+84. `<template>` - Define um modelo de conteúdo reutilizável.
+85. `<slot>` - Define slots para componentes web.
+
+---
+
+## **Acessibilidade**
+86. `<abbr>` - Define uma abreviação ou acrônimo.
+87. `<address>` - Define informações de contato.
+88. `<cite>` - Referencia uma obra.
+89. `<code>` - Define um trecho de código.
+90. `<kbd>` - Representa entrada do teclado.
+91. `<samp>` - Representa saída de código ou computador.
+92. `<var>` - Representa uma variável.
+93. `<time>` - Representa uma data ou hora.
+
+---
+
+## **Tags Obsoletas ou Menos Usadas**
+94. `<bdi>` - Isola uma parte do texto para evitar interferência de direção.
+95. `<bdo>` - Inverte a direção do texto.
+96. `<acronym>` - Define um acrônimo (obsoleta).
+97. `<big>` - Define texto maior (obsoleto).
+98. `<center>` - Centraliza texto (obsoleto).
+99. `<font>` - Altera fonte (obsoleto).
+100. `<marquee>` - Adiciona texto rolante (obsoleto e não recomendado).
+
+101. &lt; (para aparecer < no texto) &gt; (para aparecer > no texto)
+102. ../ (voltar pasta na criação de links em páginas)
+
+---
+
+Essas tags formam a base para criação de sites. Algumas são usadas frequentemente, enquanto outras são específicas para casos especiais ou foram substituídas por alternativas modernas.

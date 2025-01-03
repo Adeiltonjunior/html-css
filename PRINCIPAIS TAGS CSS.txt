@@ -1,0 +1,145 @@
+Aqui está uma lista abrangente dos comandos (propriedades) de CSS que podem ser usados para estilizar elementos de uma página web. Embora essa lista não seja completamente exaustiva, ela cobre a maioria das propriedades mais usadas e algumas menos comuns:
+
+---
+
+### **1. Propriedades de Texto e Fonte**
+- `color`: Define a cor do texto.
+- `font-family`: Define a família da fonte.
+- `font-size`: Define o tamanho da fonte.
+- `font-style`: Define o estilo da fonte (normal, itálico, etc.).
+- `font-weight`: Define o peso da fonte (normal, bold, etc.).
+- `letter-spacing`: Define o espaçamento entre as letras.
+- `line-height`: Define a altura da linha.
+- `text-align`: Alinha o texto (esquerda, direita, centro, justificado).
+- `text-decoration`: Aplica sublinhado, linha sobre o texto, etc.
+- `text-indent`: Define a indentação da primeira linha do texto.
+- `text-shadow`: Adiciona uma sombra ao texto.
+- `text-transform`: Altera a capitalização do texto (uppercase, lowercase, capitalize).
+- `white-space`: Define como o espaço em branco é tratado.
+- `word-spacing`: Define o espaçamento entre palavras.
+- `writing-mode`: Altera a direção do texto (horizontal ou vertical).
+
+---
+
+### **2. Propriedades de Cor e Fundo**
+- `background`: Propriedade abreviada para definir várias características do fundo.
+- `background-color`: Define a cor de fundo.
+- `background-image`: Define uma imagem de fundo.
+- `background-repeat`: Controla a repetição da imagem de fundo.
+- `background-size`: Define o tamanho da imagem de fundo.
+- `background-position`: Define a posição da imagem de fundo.
+- `background-attachment`: Define se o fundo se desloca com a rolagem ou não.
+- `opacity`: Define a opacidade do elemento.
+
+---
+
+### **3. Propriedades de Bordas**
+- `border`: Propriedade abreviada para todas as bordas.
+- `border-width`: Define a largura da borda.
+- `border-style`: Define o estilo da borda (solid, dashed, dotted, etc.).
+- `border-color`: Define a cor da borda.
+- `border-radius`: Define o arredondamento dos cantos.
+- `border-top`, `border-right`, `border-bottom`, `border-left`: Define cada lado da borda separadamente.
+
+---
+
+### **4. Propriedades de Margens e Espaçamento**
+- `margin`: Define as margens externas (pode ser usado de forma abreviada).
+- `margin-top`, `margin-right`, `margin-bottom`, `margin-left`: Define as margens para cada lado.
+- `padding`: Define o preenchimento interno (pode ser usado de forma abreviada).
+- `padding-top`, `padding-right`, `padding-bottom`, `padding-left`: Define o preenchimento para cada lado.
+
+---
+
+### **5. Propriedades de Tamanho e Dimensão**
+- `width`: Define a largura do elemento.
+- `height`: Define a altura do elemento.
+- `max-width`: Define a largura máxima.
+- `min-width`: Define a largura mínima.
+- `max-height`: Define a altura máxima.
+- `min-height`: Define a altura mínima.
+- `box-sizing`: Define como o tamanho total do elemento é calculado.
+
+---
+
+### **6. Propriedades de Posição**
+- `position`: Define o tipo de posicionamento (static, relative, absolute, fixed, sticky).
+- `top`, `right`, `bottom`, `left`: Define a posição do elemento em relação ao seu contêiner.
+- `z-index`: Controla a sobreposição de elementos.
+- `float`: Posiciona elementos à esquerda ou direita.
+- `clear`: Controla o comportamento de elementos em relação ao `float`.
+
+---
+
+### **7. Propriedades de Exibição e Visibilidade**
+- `display`: Define como o elemento é exibido (block, inline, flex, grid, etc.).
+- `visibility`: Define se o elemento é visível ou oculto.
+- `overflow`: Controla o conteúdo que excede o contêiner (visible, hidden, scroll, auto).
+- `clip-path`: Define um recorte ao elemento.
+
+---
+
+### **8. Propriedades de Flexbox**
+- `display: flex`: Ativa o modelo Flexbox.
+- `flex-direction`: Define a direção do layout (row, column, etc.).
+- `justify-content`: Alinha itens ao longo do eixo principal.
+- `align-items`: Alinha itens ao longo do eixo cruzado.
+- `align-self`: Alinha individualmente um item no eixo cruzado.
+- `flex-wrap`: Controla a quebra de linha dos itens flexíveis.
+- `flex-grow`: Define a proporção de crescimento de um item.
+- `flex-shrink`: Define a proporção de redução de um item.
+- `flex-basis`: Define o tamanho inicial de um item.
+- `order`: Define a ordem dos itens.
+
+---
+
+### **9. Propriedades de Grid**
+- `display: grid`: Ativa o modelo Grid Layout.
+- `grid-template-columns`: Define o layout das colunas.
+- `grid-template-rows`: Define o layout das linhas.
+- `grid-gap`: Define o espaçamento entre as células.
+- `justify-items`: Alinha itens ao longo do eixo horizontal.
+- `align-items`: Alinha itens ao longo do eixo vertical.
+- `grid-auto-flow`: Controla o preenchimento automático do grid.
+
+---
+
+### **10. Propriedades de Animação**
+- `animation`: Propriedade abreviada para animações.
+- `animation-name`: Define o nome da animação.
+- `animation-duration`: Define a duração da animação.
+- `animation-timing-function`: Controla o ritmo da animação.
+- `animation-delay`: Define um atraso antes da animação começar.
+- `animation-iteration-count`: Define quantas vezes a animação deve ser executada.
+- `animation-direction`: Define a direção da animação (normal, reverse, alternate).
+
+---
+
+### **11. Propriedades de Transição**
+- `transition`: Propriedade abreviada para transições.
+- `transition-property`: Define quais propriedades serão animadas.
+- `transition-duration`: Define a duração da transição.
+- `transition-timing-function`: Define o ritmo da transição.
+- `transition-delay`: Define um atraso para o início da transição.
+
+---
+
+### **12. Propriedades de Transformação**
+- `transform`: Aplica transformações como translação, rotação, escala, etc.
+- `transform-origin`: Define o ponto de origem para a transformação.
+- `perspective`: Define a perspectiva 3D.
+
+---
+
+### **13. Propriedades Avançadas**
+- `clip`: Define uma área de recorte para o elemento.
+- `cursor`: Define o tipo de cursor ao passar sobre o elemento.
+- `box-shadow`: Adiciona sombra ao elemento.
+- `filter`: Aplica filtros visuais (blur, brilho, contraste, etc.).
+- `resize`: Define se o elemento pode ser redimensionado.
+- `scroll-behavior`: Controla o comportamento de rolagem (suave ou instantâneo).
+- `content`: Insere conteúdo gerado (usado com `::before` e `::after`).
+
+---
+
+Se precisar de exemplos ou explicações detalhadas sobre qualquer uma dessas propriedades, é só pedir!
